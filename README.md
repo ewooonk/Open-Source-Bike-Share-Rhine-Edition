@@ -61,4 +61,4 @@ Launch your own bike sharing system!
 
 We will talk to you about the expectations, situation, bicycle theft, potential users and **provide you with help to launch your own successful bike sharing system**.
 
-First consultation is free, **get in touch**: [consult@whitebikes.info](mailto:c0nsult@whitebikes_d0t_info) or inf0@cykl_d0t_nl
+First consultation is free, **get in touch**: [c0nsult@whitebikes_d0t_info](mailto:c0nsult@whitebikes_d0t_info) or inf0@cykl_d0t_nl
