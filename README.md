@@ -37,7 +37,7 @@ Where is it working?
 ---------
 
 * Whitebike Brastislava (100 bikes)
-* Brastislava faculty
+* Bratislava faculty
 * Cykl - Wageningen (25 bikes)
 * Zadar 
 * ztlebicykle.sk
