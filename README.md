@@ -21,6 +21,7 @@ Features
 * Google Analytics enabled for stats on web and bike usage
 * Connector system to support any provider of SMS Gateway / API
 * Easy web install to launch system
+
 OSBS Rhine:
 * Dutch translation
 * Optional Smart Lock
