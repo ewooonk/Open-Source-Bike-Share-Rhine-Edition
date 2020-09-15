@@ -83,7 +83,7 @@ else
 <div class="row">
         
    <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
-       <h1 class="pull-left"><a href="https://www.yoursystemurl.org/beta"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Greek_lc_beta.svg/1024px-Greek_lc_beta.svg.png"  width=60 /></a>
+       <h1 class="pull-left"><a href="https://www.yoursystemurl.org/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Greek_lc_beta.svg/1024px-Greek_lc_beta.svg.png"  width=60 /></a>
    <h1 class="pull-left"></h1>
    </div>
    <div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
@@ -93,7 +93,7 @@ else
    <div class="col-xs-11 col-sm-11 col-md-11 col-lg-11">
    <ul class="list-inline">
 <?php
-if (isloggedin() AND getprivileges($_COOKIE["loguserid"])>0) echo '<li><a href="https://www.yoursystemurl.org/and/admin.php"><span class="glyphicon glyphicon-cog"></span> ',_('Admin'),'</a></li>';
+if (isloggedin() AND getprivileges($_COOKIE["loguserid"])>0) echo '<li><a href="https://www.yoursystemurl.org/admin.php"><span class="glyphicon glyphicon-cog"></span> ',_('Admin'),'</a></li>';
 if (isloggedin())
    {
    if (getusersub($_COOKIE["loguserid"])==1) echo '<li><a href="https://www.yoursystemurl.org/beta/detail.php"> ðŸŽ“ </a>';
