@@ -9,9 +9,9 @@ $db->connect();
 <html lang="en">
 <head><meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 
-<title><?php echo _('OSBS- the Wageningen Bike Share Network'); ?></title>
-<meta name="description" content="Stationless bike sharing on Wageningen Campus">
-<meta name="keywords" content="Wageningen, university, campus, bike, share, sharing, hire, bicycle, deelfiets, fietsverhuur, rental, transport, app, android">
+<title><?php echo _('OSBS'); ?></title>
+<meta name="description" content="bike share">
+<meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
