@@ -1094,31 +1094,7 @@ $result=$db->query("SELECT bikelock FROM bikes WHERE bikeNum='$bikeNum'");
 $row=$result->fetch_assoc();
 $lockid=$row["bikelock"];
 
-$curl = curl_init();
 
-curl_setopt_array($curl, array(
-  CURLOPT_URL => "http://188.166.83.181/api/commands/send",
-  CURLOPT_RETURNTRANSFER => true,
-  CURLOPT_ENCODING => "",
-  CURLOPT_MAXREDIRS => 10,
-  CURLOPT_TIMEOUT => 30,
-  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
-  CURLOPT_CUSTOMREQUEST => "POST",
-  CURLOPT_POSTFIELDS => "{\"id\":1,\"attributes\":{\"data\":\"UNLOCK#\"},\"deviceId\":$lockid,\"type\":\"custom\",\"textChannel\":false,\"description\":\"unlock\"}",
-  CURLOPT_HTTPHEADER => array(
-    "authorization: Basic YWRtaW46YWRtaW4=",
-    "cache-control: no-cache",
-    "content-type: application/json",
-    "postman-token: 1742bafa-05d7-fcfa-e35e-81f30a27e099"
-  ),
-));
-
-$response = curl_exec($curl);
-$err = curl_error($curl);
-
-curl_close($curl);
-
-if ($type==1) response("Opening lock");
 
 }
 
